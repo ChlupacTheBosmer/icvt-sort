@@ -1,16 +1,16 @@
 
 # ICVT modules
-from modules.utility import utils
+from ..utility import utils
 
 # extra packages
-import tkinter as tk
-from tkinter import ttk
+import cv2
 from PIL import Image, ImageTk
 import numpy as np
-from tkinter import filedialog
 
 #PIL Default pyhton packages
-import cv2
+import tkinter as tk
+from tkinter import filedialog
+from tkinter import ttk
 import random
 import os
 
